@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255, 255, 255, 0);
+}
+
+body {
+  font-family: "Roboto" sans-serif;
+  height: 90vh;
+}
+
+/************** Menu Links ********************/
+
+nav a.nav-link {
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing: 0.0375rem ;
+  cursor: pointer;
+}
+
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+/************** Navbar ********************/
+
+.nav-navbar > li> a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+/************** Header ********************/
+
+.main-info {
+  background: url(bg.svg) no-repeat;
+  background-position: right;
+  background-size: 90vh;
+  display: flex;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-family: "Roboto" sans-serif;
+}
+
+@media (max-width: 768px) {
+  .main-info {
+    font-size: 1.5rem !important;
+    color: #fff;
+    text-align: left;
+  }
+}
+
+.title-one {
+  font-size: 60px;
+  font-family: "Roboto" sans-serif;
+}
+
+.main-info h1 {
+  color: #fff;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: #F26840;
+}
+
+@media (max-width: 768px) {
+  .typed-text {
+    font-size: 1rem !important;
+  }
+}
+
+.box-uno {
+  background: url(html.svg) no-repeat;
+  background-position:center ;
+}
+.box-dos {
+  background: url(css.svg) no-repeat;
+  background-position:center ;
+}
+.box-tres {
+  background: url(js.svg) no-repeat;
+  background-position:center ;
+}
+.box-cuatro {
+  background: url(react.svg) no-repeat;
+  background-position:center ;
+}
+.box-cinco {
+  background: url(react.svg) no-repeat;
+  background-position:center ;
+}
+
+.typed-text-two {
+  font-size: 1rem;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .typed-text-two {
+    font-size: 1rem !important;
+  }
+}
+
+.box-uno:hover {
+  transform: scale(4.3);
+  transition: 1s;
+}
+.box-dos:hover {
+  transform: scale(4.3);
+  transition: 1s;
+}
+.box-tres:hover {
+  transform: scale(4.3);
+  transition: 1s;
+}
+.box-cuatro:hover {
+  transform: scale(4.3);
+  transition: 1s;
+}
+.box-cinco:hover {
+  transform: scale(4.3);
+  transition: 1s;
+}
