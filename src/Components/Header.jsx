@@ -16,7 +16,7 @@ export const Header = () => {
                   "Tengo 26 años", 
                   "vivo en Buenos Aires, Argentina", 
                   "y soy desarrollador Front End."]}
-        typeSpeed={40}
+        typeSpeed={20}
         backSpeed={60}
         loop />
     </div>
