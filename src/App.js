@@ -1,7 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header';
-import Skills from './Components/Skills'
+import Skills from './Components/Skills';
+import Works from './Components/Works';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header></Header>
       <Skills></Skills>
+      <Works></Works>
     </>
   );
 }
