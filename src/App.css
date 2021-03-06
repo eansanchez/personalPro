@@ -136,26 +136,11 @@ nav a.nav-link {
   }
 }
 
-.box-uno:hover {
-  transform: scale(4.3);
-  transition: 1s;
+.fa-stack:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
 }
-.box-dos:hover {
-  transform: scale(4.3);
-  transition: 1s;
-}
-.box-tres:hover {
-  transform: scale(4.3);
-  transition: 1s;
-}
-.box-cuatro:hover {
-  transform: scale(4.3);
-  transition: 1s;
-}
-.box-cinco:hover {
-  transform: scale(4.3);
-  transition: 1s;
-}
+
 
 .titule-h {
 font-family: Roboto;
