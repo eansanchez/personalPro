@@ -46,7 +46,7 @@ export const Works = () => {
 
                     <div className="col-md-4 mt-5">
                     <Card className='mx-auto bg-Ligth text-dark' style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="http://localhost:3000/static/media/bg.8b91dd87.svg" />
+                        <Card.Img variant="top" src="https://pework-a4181.web.app/images/contact.svg" />
                         <Card.Body>
                             <Card.Title>Portfolio Personal</Card.Title>
                             <Card.Text>

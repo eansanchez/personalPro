@@ -14,7 +14,7 @@ export const Social = () => {
                     <a className="btn btn-primary btn-social mx-2" href="https://www.linkedin.com/in/emanuel-sanchezok" target="_blank"><i className="fab fa-linkedin-in"></i></a>
                 </div>
                 <div className="col-lg-4 text-lg-right">
-                    <p className="mr-3 text-white" href="#!">Contact Me</p>
+                    <p className="mr-3 text-white" href="#!">emanuelsanchez.dev@gmail.com</p>
                 </div>
             </div>
         </div>
