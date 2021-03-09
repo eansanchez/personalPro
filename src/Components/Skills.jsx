@@ -37,7 +37,7 @@ export const Skills = () => {
                             <i className="fas fa-circle fa-stack-2x text-warning"></i>
                             <i className="fab fa-js-square fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 className="my-3 text-white">JAVASCRIP</h4>
+                        <h4 className="my-3 text-white">JAVASCRIPT</h4>
                         
                     </div>
                     <div className="col-md-4 mt-5">
